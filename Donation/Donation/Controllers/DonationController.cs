@@ -8,7 +8,7 @@ using System.Web.Http;
 namespace Donation.Controllers
 {
     [Authorize]
-    public class ValuesController : ApiController
+    public class DonationController : ApiController
     {
         // GET api/values
         public IEnumerable<string> Get()
