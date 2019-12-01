@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using Donation.Domain.Entities;
 namespace Donation.Domain.Services
 {
-    interface IDonationService
+    public interface IDonationService : IServiceBase<Donations>
     {
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Donation.Domain.Entities
 {
-    class Participant
+    public class Participant
     {
         public string ParticipantId { get; set; }
 
