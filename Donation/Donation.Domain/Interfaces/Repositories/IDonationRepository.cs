@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Donation.Domain.Interfaces
 {
-    interface IDonationRepository : IRepositoryBase<Donations>
+    public interface IDonationRepository : IRepositoryBase<Donations>
     {
     }
 }

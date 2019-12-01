@@ -1,15 +1,19 @@
-﻿using System;
+﻿using Donation.Infra.Data.Repository;
+using System.Web.Mvc;
+using AutoMapper;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+using Donation.Domain.Entities;
+using Donation.Models;
+using Donation.Application.Interfaces;
 using System.Web.Http;
 
 namespace Donation.Controllers
 {
-    [Authorize]
+    [System.Web.Http.Authorize]
     public class DonationController : ApiController
     {
+        private readonly IDonationAppService _DonationApp;
+
         // GET api/values
         public IEnumerable<string> Get()
         {
