@@ -14,13 +14,13 @@ namespace Donation.Controllers
     {
         private readonly IDonationAppService _DonationApp;
 
-        // GET api/values
-        public IEnumerable<string> Get()
+        // GET All
+        public IEnumerable<string> GetAll()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
+        // GET by id
         public string Get(int id)
         {
             return "value";
