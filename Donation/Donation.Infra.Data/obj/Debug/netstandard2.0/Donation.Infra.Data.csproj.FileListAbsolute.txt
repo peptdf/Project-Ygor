@@ -1,0 +1,7 @@
+S:\source\repos\Project-Ygor\Donation\Donation.Infra.Data\bin\Debug\netstandard2.0\Donation.Infra.Data.dll.config
+S:\source\repos\Project-Ygor\Donation\Donation.Infra.Data\bin\Debug\netstandard2.0\Donation.Infra.Data.deps.json
+S:\source\repos\Project-Ygor\Donation\Donation.Infra.Data\bin\Debug\netstandard2.0\Donation.Infra.Data.dll
+S:\source\repos\Project-Ygor\Donation\Donation.Infra.Data\obj\Debug\netstandard2.0\Donation.Infra.Data.csprojAssemblyReference.cache
+S:\source\repos\Project-Ygor\Donation\Donation.Infra.Data\obj\Debug\netstandard2.0\Donation.Infra.Data.csproj.CoreCompileInputs.cache
+S:\source\repos\Project-Ygor\Donation\Donation.Infra.Data\obj\Debug\netstandard2.0\Donation.Infra.Data.AssemblyInfoInputs.cache
+S:\source\repos\Project-Ygor\Donation\Donation.Infra.Data\obj\Debug\netstandard2.0\Donation.Infra.Data.AssemblyInfo.cs

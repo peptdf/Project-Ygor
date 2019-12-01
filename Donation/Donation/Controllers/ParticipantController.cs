@@ -20,7 +20,7 @@ using Donation.Results;
 namespace Donation.Controllers
 {
     [Authorize]
-    [RoutePrefix("api/Account")]
+    [RoutePrefix("api/Participant")]
     public class ParticipantController : ApiController
     {
         private const string LocalLoginProvider = "Local";

@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donation", "Donation\Donation.csproj", "{9EA4A66A-8B9A-4C01-A877-03C1511E935B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentation", "0 - Apresentation", "{7830FDBE-5302-44B0-B925-93D84E26A788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{31AB3E43-5B2A-4D7A-8E7A-976988340A6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{B857B1B4-A320-4BAC-887F-FFC3C683A19A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{EA1D5114-BC4F-48C8-8257-8D12797F75C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{E3212BAA-6616-44A2-9419-085BB7510B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donation.Infra.Data", "Donation.Infra.Data\Donation.Infra.Data.csproj", "{EF5D7230-DD06-4018-94D9-A8D17780E184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +27,19 @@ Global
 		{9EA4A66A-8B9A-4C01-A877-03C1511E935B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EA4A66A-8B9A-4C01-A877-03C1511E935B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EA4A66A-8B9A-4C01-A877-03C1511E935B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5D7230-DD06-4018-94D9-A8D17780E184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5D7230-DD06-4018-94D9-A8D17780E184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5D7230-DD06-4018-94D9-A8D17780E184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5D7230-DD06-4018-94D9-A8D17780E184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EA4A66A-8B9A-4C01-A877-03C1511E935B} = {7830FDBE-5302-44B0-B925-93D84E26A788}
+		{EF5D7230-DD06-4018-94D9-A8D17780E184} = {E3212BAA-6616-44A2-9419-085BB7510B82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E39A1FE9-BBFF-42D1-8532-95A3CDF212B4}
 	EndGlobalSection
 EndGlobal
