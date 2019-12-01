@@ -5,9 +5,9 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace Donation.Infra.Data.Context
 {
-    public class Contexto : DbContext
+    public class Context : DbContext
     {
-        public Contexto() : base("LTM")
+        public Context() : base("Donation")
         {
 
         }

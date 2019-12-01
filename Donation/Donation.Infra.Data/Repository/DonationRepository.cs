@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Donation.Infra.Data.Repository
 {
-    class DonationRepository
+    class DonationRepository : RepositoryBase<Donation>, IDonationRepository
     {
     }
 }
