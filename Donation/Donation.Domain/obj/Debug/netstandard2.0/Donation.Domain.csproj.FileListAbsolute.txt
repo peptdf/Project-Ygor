@@ -1,0 +1,9 @@
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\bin\Debug\netstandard2.0\Donation.Domain.deps.json
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\bin\Debug\netstandard2.0\Donation.Domain.dll
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\bin\Debug\netstandard2.0\Donation.Domain.pdb
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\obj\Debug\netstandard2.0\Donation.Domain.csprojAssemblyReference.cache
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\obj\Debug\netstandard2.0\Donation.Domain.csproj.CoreCompileInputs.cache
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\obj\Debug\netstandard2.0\Donation.Domain.AssemblyInfoInputs.cache
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\obj\Debug\netstandard2.0\Donation.Domain.AssemblyInfo.cs
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\obj\Debug\netstandard2.0\Donation.Domain.dll
+S:\source\repos\Project-Ygor\Donation\Donation.Domain\obj\Debug\netstandard2.0\Donation.Domain.pdb

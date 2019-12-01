@@ -5,14 +5,14 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace Donation.Infra.Data.Context
 {
-    public class Context : DbContext
+    public class Contexto : DbContext
     {
-        public Context() : base("Donation")
+        public Contexto() : base("Donation")
         {
 
         }
 
-        public DbSet<Donation> Donations { get; set; }
+        public DbSet<Donations> Donations { get; set; }
         public DbSet<Participant> Participants { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

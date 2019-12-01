@@ -149,7 +149,14 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "S:\\source\\repos\\Project-Ygor\\Donation\\Donation.Domain\\Donation.Domain.csproj": {
+                "projectPath": "S:\\source\\repos\\Project-Ygor\\Donation\\Donation.Domain\\Donation.Domain.csproj"
+              },
+              "S:\\source\\repos\\Project-Ygor\\Donation\\Donation\\Donation.csproj": {
+                "projectPath": "S:\\source\\repos\\Project-Ygor\\Donation\\Donation\\Donation.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

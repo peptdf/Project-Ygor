@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Donation.Domain.Entities;
+using Donation.Domain.Interfaces;
+
 
 namespace Donation.Infra.Data.Repository
 {
-    class DonationRepository : RepositoryBase<Donation>, IDonationRepository
+    class DonationRepository : RepositoryBase<Donations>, IDonationRepository
     {
     }
 }

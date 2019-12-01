@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Donation.Domain.Entities;
 using System.Collections.Generic;
-using System.Text;
 
-namespace Donation.Domain.Interfaces.Repositories
+namespace Donation.Domain.Interfaces
 {
-    interface IParticipantRepository
+    public interface IParticipantRepository : IRepositoryBase<Participant>
     {
+        IEnumerable<Participant> FindById(string Id);
     }
 }

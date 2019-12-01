@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Donation.Domain\Donation.Domain.csproj" />
+    <ProjectReference Include="..\Donation.Infra.Data\Donation.Infra.Data.csproj" />
+    <ProjectReference Include="..\Donation\Donation.csproj" />
+  </ItemGroup>
 
 </Project>

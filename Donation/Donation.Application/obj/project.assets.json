@@ -60,6 +60,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Donation": "1.0.0",
+          "Donation.Domain": "1.0.0",
           "EntityFramework": "6.1.3"
         },
         "compile": {

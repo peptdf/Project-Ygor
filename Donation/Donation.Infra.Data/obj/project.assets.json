@@ -36,6 +36,25 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Donation/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Donation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Donation.dll": {}
+        }
+      },
+      "Donation.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Donation.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Donation.Domain.dll": {}
+        }
       }
     }
   },
@@ -212,10 +231,22 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Donation/1.0.0": {
+      "type": "project",
+      "path": "../Donation/Donation.csproj",
+      "msbuildProject": "../Donation/Donation.csproj"
+    },
+    "Donation.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Donation.Domain/Donation.Domain.csproj",
+      "msbuildProject": "../Donation.Domain/Donation.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Donation >= 1.0.0",
+      "Donation.Domain >= 1.0.0",
       "EntityFramework >= 6.1.3",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -252,7 +283,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "S:\\source\\repos\\Project-Ygor\\Donation\\Donation.Domain\\Donation.Domain.csproj": {
+              "projectPath": "S:\\source\\repos\\Project-Ygor\\Donation\\Donation.Domain\\Donation.Domain.csproj"
+            },
+            "S:\\source\\repos\\Project-Ygor\\Donation\\Donation\\Donation.csproj": {
+              "projectPath": "S:\\source\\repos\\Project-Ygor\\Donation\\Donation\\Donation.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

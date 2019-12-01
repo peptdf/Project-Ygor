@@ -5,7 +5,7 @@ using Donation.Domain.Entities;
 
 namespace Donation.Application.Interfaces
 {
-    interface IDonationAppService : IAppServiceBase<Donation>
+    interface IDonationAppService : IAppServiceBase<Donations>
     {
     }
 }
